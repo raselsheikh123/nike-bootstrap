@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Roboto", sans-serif;
+}
+.buy-now-btn {
+  a {
+    background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px 34px;
+    border-radius: 10px;
+    i {
+      padding-right: 8px;
+    }
+    &:hover {
+      background-color: turquoise;
+    }
+  }
+}
+/* header style */
+.header-content {
+  background: #fff9f4;
+  nav {
+    .nav-item {
+      padding: 0 0 0 20px;
+    }
+  }
+}
+.banner {
+  background: #fff9f4;
+  padding-bottom: 130px;
+  .banner-info {
+    h2 {
+      font-size: 80px;
+      background-color: transparent;
+      background-image: linear-gradient(#fa804c, #f3ac28);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-family: "Bebas Neue", cursive;
+      line-height: 96px;
+      span {
+        color: #363958;
+        -webkit-text-fill-color: #363958;
+        display: block;
+      }
+    }
+    p {
+      color: #3e3e3e;
+      font-size: 16px;
+      line-height: 26px;
+    }
+  }
+}
+/* Category section */
+.category-title {
+  h2 {
+    color: #363958;
+    font-size: 48px;
+    font-family: "Bebas Neue", cursive;
+  }
+}
+.category {
+  .card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+    img {
+      background: #f1f1f1;
+      border-radius: 20px;
+    }
+  }
+  .card-title {
+    color: #363958;
+    font-size: 24px;
+  }
+  .card-text {
+    color: #3e3e3e;
+    line-height: 26px;
+  }
+  .card-link {
+    color: #fa804c;
+    font-size: 36px;
+  }
+}
+/* Footer */
+footer {
+  margin-top: 110px;
+  .card {
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+  }
+  .card-title {
+    color: #363958;
+    font-size: 24px;
+    line-height: 28px;
+  }
+  .card-text {
+    color: #3e3e3e;
+    line-height: 26px;
+  }
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+  .banner .banner-info h2 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+@media screen and (max-width: 576px) {
+  footer {
+    .footer-content {
+        display: flex;
+      flex-direction: column-reverse;
+    }
+    .footer-card-item{
+      display: flex;
+      text-align: center;
+    }
+  }
+}

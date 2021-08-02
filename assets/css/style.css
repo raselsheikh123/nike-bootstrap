@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.buy-now-btn a {
+  background: -webkit-gradient(linear, left top, left bottom, from(#3d4ff3), to(#3543bc));
+  background: linear-gradient(180deg, #3d4ff3 0%, #3543bc 100%);
+  color: #ffffff;
+  text-decoration: none;
+  padding: 18px 34px;
+  border-radius: 10px;
+}
+
+.buy-now-btn a i {
+  padding-right: 8px;
+}
+
+.buy-now-btn a:hover {
+  background-color: turquoise;
+}
+
+/* header style */
+.header-content {
+  background: #fff9f4;
+}
+
+.header-content nav .nav-item {
+  padding: 0 0 0 20px;
+}
+
+.banner {
+  background: #fff9f4;
+  padding-bottom: 130px;
+}
+
+.banner .banner-info h2 {
+  font-size: 80px;
+  background-color: transparent;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fa804c), to(#f3ac28));
+  background-image: linear-gradient(#fa804c, #f3ac28);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Bebas Neue", cursive;
+  line-height: 96px;
+}
+
+.banner .banner-info h2 span {
+  color: #363958;
+  -webkit-text-fill-color: #363958;
+  display: block;
+}
+
+.banner .banner-info p {
+  color: #3e3e3e;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* Category section */
+.category-title h2 {
+  color: #363958;
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.category .card {
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+.category .card img {
+  background: #f1f1f1;
+  border-radius: 20px;
+}
+
+.category .card-title {
+  color: #363958;
+  font-size: 24px;
+}
+
+.category .card-text {
+  color: #3e3e3e;
+  line-height: 26px;
+}
+
+.category .card-link {
+  color: #fa804c;
+  font-size: 36px;
+}
+
+/* Footer */
+footer {
+  margin-top: 110px;
+}
+
+footer .card {
+  -webkit-box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+          box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.05);
+  border-radius: 20px;
+}
+
+footer .card-title {
+  color: #363958;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+footer .card-text {
+  color: #3e3e3e;
+  line-height: 26px;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+  .banner .banner-info h2 {
+    font-size: 50px;
+    line-height: 1.2;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  footer .footer-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  footer .footer-card-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: center;
+  }
+}
+/*# sourceMappingURL=style.css.map */
